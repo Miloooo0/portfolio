@@ -1,13 +1,7 @@
 ---
-title: About
-description: Hugo, the world's fastest framework for building websites
-date: '2019-02-28'
-aliases:
-  - about-us
-  - about-hugo
-  - contact
-license: CC BY-NC-ND
-lastmod: '2020-10-09'
+title: Sobre Mí
+description: Yo, mi persona y sobre mi
+date: '2024-11-20'
 menu:
     main: 
         weight: -90
@@ -15,20 +9,25 @@ menu:
             icon: user
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache License 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Como decía anteriormente, soy Milad, un estudiante de segundo de Desarrollo de Aplicaciones Web en el centro Los Enlaces en Zaragoza. A lo largo de estos dos años de estudio en el Ciclo Formativo he aprendido mucho sobre el mundo de la informática y la programación. Lenguajes como Java, PHP, JavaScript e incluso HTML y CSS si se pueden considerar como tal. Además de esto se manejar bases de datos de SQLite, MySQL y Oracle y también he sido formado para saber emplear sistemas de control de versiones como GitHub.
 
-Hugo makes use of a variety of open source projects including:
+Antes de empezar el CFGS comenzé una carrera en Ingeniería Informática en la Unversidad de Zaragoza y a pesar de que me fuera bien en el curso académico, debido a varios factores decidí dejar los estudios universitarios para más adelante.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+Clasificando mis conocimientos en una lista quedarían de este modo:
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+* Universidad
+  - C++
+  - C
+  - R
+* CFGS
+  - Java
+  - PHP
+  - JavaScrpt
+  - HTML
+  - CSS
+  - MySQL
+  - SQLite
+  - GitHub
+  - Otros y Frameworks
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+La verdad que tras haber cursado algo de cada una de estas opciones, me sorprende la calidad que ofrece la Formación Profesional en comparación con la estima que le tiene la gente y el prejuicio que existe a su alrededor.

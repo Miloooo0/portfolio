@@ -16,11 +16,11 @@ hasCJKLanguage: false
 languages:
     en:
         languageName: English
-        title: Example Site
+        title: Inicio
         weight: 1
         params:
             sidebar:
-                subtitle: Example description
+                subtitle: Soy Milad un estudiante de Desarrollo de Aplicaciones Web y aquí voy a compartir curiosidades, aprendizajes y cosas que me apetezca en general.
     zh-cn:
         languageName: 中文
         title: 演示站点
@@ -218,7 +218,7 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/Miloooo0/
           params:
               icon: brand-github
 
