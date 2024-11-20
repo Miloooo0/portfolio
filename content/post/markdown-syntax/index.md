@@ -1,8 +1,7 @@
 +++
-author = "Hugo Authors"
-title = "Markdown Syntax Guide"
-date = "2019-03-11"
-description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+title = "Markdown"
+date = "2024-11-20"
+description = "Guia básica de Markdown"
 tags = [
     "markdown",
     "css",
@@ -10,20 +9,19 @@ tags = [
     "themes",
 ]
 categories = [
-    "themes",
-    "syntax",
+    "Temas",
+    "Sintaxis",
 ]
 series = ["Themes Guide"]
 aliases = ["migrate-from-jekyl"]
 image = "pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg"
 +++
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
-<!--more-->
+Este artículo ofrece un ejemplo de la sintaxis básica de Markdown que se puede utilizar en archivos de contenido de Hugo, una explicación de los recursos que he empleado para desarrollar esta misma página.
 
 ## Headings
 
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
+Los siguientes elementos HTML del `<h1>` a `<h6>` representan seis niveles de encabezados o headers. `<h1>` es el nivel más alto, mientras que `<h6>` es el más bajo.
 
 # H1
 ## H2
@@ -32,37 +30,44 @@ The following HTML `<h1>`—`<h6>` elements represent six levels of section head
 ##### H5
 ###### H6
 
-## Paragraph
+## Texto en Negrita y Cursiva
 
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
+Markdown permite dar formato al texto con negrita y cursiva utilizando asteriscos (*) o guiones bajos (_). De modo que la sintaxis para introducir un texto en cursivaa sería:
+<br>
 
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
+`*Texto*` - **Texto en negrita** <br>
+`_Texto_` - _Texto en cursiva_ <br>
+`***Texto***` - ***Texto en negrita y cursiva***
 
-## Blockquotes
 
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
+## Remarcado
 
-#### Blockquote without attribution
+Podemos remarcar parte del texto empleando el acento invertido "\`". De modo que si queremos hacer incapié en una palabra o grupo de palabras bastaría con ponerlas entre dos de estos caracteres como en este `ejemplo`.
 
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-> **Note** that you can use *Markdown syntax* within a blockquote.
+## Cita
+Podemos incluir texto a modo de cita o _blackquote_ incluyendo el carácter "\>" antes de la línea a citar.
+> Este es un ejemplo de texto citado.
 
-#### Blockquote with attribution
+Además de esto, podemos incluir una atribución de la cita, empleando lo siguiente.
+```
+> — <cite>Persona citada</cite>
+```
 
-> Don't communicate by sharing memory, share memory by communicating.<br>
-> — <cite>Rob Pike[^1]</cite>
+## Tablas
 
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+Las tablas no forman parte de Markdown como tal pero si que son soportadas por Hugo de forma nativa y se implementan dibujando de manera casi literal las tablas.
 
-## Tables
+   Nombre | Edad
+----------|------
+ Manuel   | 27
+  Milad   | 20
 
-Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
-
-   Name | Age
---------|------
-    Bob | 27
-  Alice | 23
-
+```
+    Nombre | Edad
+-----------|------
+  Manuel   | 27
+   Milad   | 20
+```
 #### Inline Markdown within tables
 
 | Italics   | Bold     | Code   |
