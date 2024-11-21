@@ -149,15 +149,18 @@ será un elemento independiente o hijo del anterior.&lt;/p&gt;
 &lt;p&gt;Superíndice (sup): X&lt;sup&gt;n&lt;/sup&gt; + Y&lt;sup&gt;n&lt;/sup&gt; = Z&lt;sup&gt;n&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Teclas (kbd): &lt;kbd&gt;CTRL&lt;/kbd&gt; + &lt;kbd&gt;F&lt;/kbd&gt; para buscar dentro de la página.&lt;/p&gt;
 &lt;p&gt;Remarcado (mark): Algunos dispositivos emplean la arquitectura &lt;mark&gt;ARM64&lt;/mark&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;imágenes-en-línea&#34;&gt;Imágenes en línea
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://google.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img src=&#34;https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png&#34;
+&lt;h2 id=&#34;imágenes-en-línea-con-enlaces&#34;&gt;Imágenes en línea con enlaces
+&lt;/h2&gt;&lt;p&gt;Usando markdown, podemos insertar imágenes en línea con un enlace a la imagen, para ello, basta con poner el texto que queremos que se vea en el enlace entre corchetes y luego el enlace al archivo de la imagen entre parentesis. En adición se puede incluir despues de este enlace entre parentesis el enlace a la página web.&lt;/p&gt;
+&lt;p&gt;Este sería el código markdown para insertar una imagen en línea con un enlace a la imagen.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;[![facebookImagen](https://www.almoradi.es/wp-content/uploads/2022/02/Facebook-logo-1.png)](https://www.facebook.com)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.facebook.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img src=&#34;https://www.almoradi.es/wp-content/uploads/2022/02/Facebook-logo-1.png&#34;
 	
 	
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Google&#34;
+		alt=&#34;facebookImagen&#34;
 	
 	
 &gt;&lt;/a&gt;&lt;/p&gt;

@@ -134,7 +134,7 @@
 
 
                 
-                <span>Home</span>
+                <span>Homes</span>
             </a>
         </li>
         
@@ -276,7 +276,7 @@
       </ol>
     </li>
     <li><a href="#otros-elementos--abbr-sub-sup-kbd-mark">Otros elementos — abbr, sub, sup, kbd, mark</a></li>
-    <li><a href="#imágenes-en-línea">Imágenes en línea</a></li>
+    <li><a href="#imágenes-en-línea-con-enlaces">Imágenes en línea con enlaces</a></li>
   </ol>
 </nav>
         </div>
@@ -513,15 +513,18 @@ será un elemento independiente o hijo del anterior.</p>
 <p>Superíndice (sup): X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup></p>
 <p>Teclas (kbd): <kbd>CTRL</kbd> + <kbd>F</kbd> para buscar dentro de la página.</p>
 <p>Remarcado (mark): Algunos dispositivos emplean la arquitectura <mark>ARM64</mark>.</p>
-<h2 id="imágenes-en-línea">Imágenes en línea
-</h2><p><a class="link" href="https://google.com"  target="_blank" rel="noopener"
-    ><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png"
+<h2 id="imágenes-en-línea-con-enlaces">Imágenes en línea con enlaces
+</h2><p>Usando markdown, podemos insertar imágenes en línea con un enlace a la imagen, para ello, basta con poner el texto que queremos que se vea en el enlace entre corchetes y luego el enlace al archivo de la imagen entre parentesis. En adición se puede incluir despues de este enlace entre parentesis el enlace a la página web.</p>
+<p>Este sería el código markdown para insertar una imagen en línea con un enlace a la imagen.</p>
+<p><code>[![facebookImagen](https://www.almoradi.es/wp-content/uploads/2022/02/Facebook-logo-1.png)](https://www.facebook.com)</code></p>
+<p><a class="link" href="https://www.facebook.com"  target="_blank" rel="noopener"
+    ><img src="https://www.almoradi.es/wp-content/uploads/2022/02/Facebook-logo-1.png"
 	
 	
 	
 	loading="lazy"
 	
-		alt="Google"
+		alt="facebookImagen"
 	
 	
 ></a></p>

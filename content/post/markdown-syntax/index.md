@@ -131,7 +131,11 @@ Teclas (kbd): <kbd>CTRL</kbd> + <kbd>F</kbd> para buscar dentro de la página.
 
 Remarcado (mark): Algunos dispositivos emplean la arquitectura <mark>ARM64</mark>.
 
-## Imágenes en línea
+## Imágenes en línea con enlaces
+Usando markdown, podemos insertar imágenes en línea con un enlace a la imagen, para ello, basta con poner el texto que queremos que se vea en el enlace entre corchetes y luego el enlace al archivo de la imagen entre parentesis. En adición se puede incluir despues de este enlace entre parentesis el enlace a la página web.
 
+Este sería el código markdown para insertar una imagen en línea con un enlace a la imagen.
 
-[![Google](https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png)](https://google.com)
+`[![facebookImagen](https://www.almoradi.es/wp-content/uploads/2022/02/Facebook-logo-1.png)](https://www.facebook.com)`
+
+[![facebookImagen](https://www.almoradi.es/wp-content/uploads/2022/02/Facebook-logo-1.png)](https://www.facebook.com)
