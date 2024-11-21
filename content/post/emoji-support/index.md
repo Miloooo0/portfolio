@@ -1,5 +1,5 @@
 +++
-author = "Milad Al CHihabi"
+author = "Milad Al Chihabi"
 title = "Emojis en Hugo"
 date = "2024-11-21" 
 description = "Guia de uso de Emojis en Hugo"

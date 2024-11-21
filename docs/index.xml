@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Inicio</title>
-        <link>http://localhost:34729/</link>
+        <link>http://localhost:1313/</link>
         <description>Recent content on Inicio</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Thu, 21 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:34729/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 21 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Emojis en Hugo</title>
-        <link>http://localhost:34729/p/emojis-en-hugo/</link>
+        <link>http://localhost:1313/p/emojis-en-hugo/</link>
         <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:34729/p/emojis-en-hugo/</guid>
-        <description>&lt;img src="http://localhost:34729/p/emojis-en-hugo/emojis.jpg" alt="Featured image of post Emojis en Hugo" /&gt;&lt;p&gt;En Hugo se pueden insertar emojis en contenido de Markdown, para ello, hay diversas opciones.&lt;/p&gt;
+        <guid>http://localhost:1313/p/emojis-en-hugo/</guid>
+        <description>&lt;img src="http://localhost:1313/p/emojis-en-hugo/emojis.jpg" alt="Featured image of post Emojis en Hugo" /&gt;&lt;p&gt;En Hugo se pueden insertar emojis en contenido de Markdown, para ello, hay diversas opciones.&lt;/p&gt;
 &lt;p&gt;La función &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/functions/emojify/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;code&gt;emojify&lt;/code&gt;&lt;/a&gt; puede ser llamada directamente empleando &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Shortcodes&lt;/a&gt;.&lt;/p&gt;
@@ -26,12 +26,78 @@ The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference
 </description>
         </item>
         <item>
+        <title>Videojuegos</title>
+        <link>http://localhost:1313/p/videojuegos/</link>
+        <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/videojuegos/</guid>
+        <description>&lt;img src="http://localhost:1313/videojuegos.jpg" alt="Featured image of post Videojuegos" /&gt;&lt;p&gt;Bueno, como buen estudiante de informática, me apasionan los videojuegos, los comics, el anime y todas estas cosas tan cliché que hacen que nos llamen &amp;ldquo;frikis&amp;rdquo; y &amp;ldquo;nerds&amp;rdquo; a los informáticos. Como este es mi blog, voy a hablar de algunos de los videojuegos que me gustan.
+Quiero recalcar que esto no es una lista ordenada por favoritismo, todos los juegos tienen su atractivo y no sabría quedarme con uno.&lt;/p&gt;
+&lt;h2 id=&#34;kingdom-hearts&#34;&gt;Kingdom Hearts
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/kh.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Kingdom Hearts&#34;
+	
+	
+&gt;
+&lt;code&gt;Kingdom Hearts&lt;/code&gt; es posiblemente el primer recuerdo de videojuego que tengo. Recuerdo estar sentado en el salón de mi casa jugando a la PlayStation 2 sentado en el suelo a 2 palmos de la televisión. En ese entonces no entendía mucho ya que a duras penas sabría leer, pero ahí estaba yo, trasteando con el mando y la verdad que, entonces, pensaba que estaba avanzando en la historia y se lo contaba a mi hermano ilusionado. Bastantes años después, desempolvé la PS2 y volví a jugarlo, entonces me di cuenta de que mi yo de pequeño a duras penas había pasado el tutorial del juego.&lt;/p&gt;
+&lt;p&gt;Tengo el defecto o la virtud de que cuando me pongo con algo, hasta que no lo acabo al 100% consiguiendo todos los logros, no lo dejo en paz y la verdad que este juego no lo puso fácil precisamente con la cantidad de opciones que tiene.&lt;/p&gt;
+&lt;p&gt;Pero si algo se tiene que llevar la joya de la corona de esta entrega es su historia. Un juego camuflado es lo que es, con una apariencia infantil y con personajes de Disney, que es posiblemente lo más infantil que existe, este juego explora partes muy profundas de la vida, la muerte, el amor, la amistad y cosas que no te esperarías en una historia en la que quienes te acompañan son Goofy, Donald y Mickey Mouse.&lt;/p&gt;
+&lt;h2 id=&#34;stray&#34;&gt;Stray
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/stray.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Stray&#34;
+	
+	
+&gt;
+&lt;code&gt;Stray&lt;/code&gt; es más que un juego de un gato, es una obra repleta de detalles que van mucho más allá de su duración.&lt;/p&gt;
+&lt;p&gt;La propuesta original del título tiene algo que cautivar de inmediato a todos los amantes de los gatos, sobre todo cuando vemos como el protagonista felino tiene todo lo que podemos esperar de un gato, dando ganas de escucharlo ronronear durante horas.&lt;/p&gt;
+&lt;p&gt;El juego es maravilloso en todos los aspectos, es 100% fiel al comportamiento de un minino, me parece maravilloso poder interactuar con todas las cosas del mapa, poder hacer cosas de&amp;hellip; Gatos. Además la historia es muy intrigadora, y hace que puedas jugar muchas horas sin detenerte. Estuve esperando el título desde que se anunció, y honestamente me encanta cómo desde el comienzo te permite interactuar con el entorno, haciendo que te sientas completamente dentro del cuerpo de un gato.&lt;/p&gt;
+&lt;p&gt;El comienzo de la historia es increíble, me gustó muchísimo como cada detalle en el mapa que reaccionaba al maullido del felino.&lt;/p&gt;
+&lt;h2 id=&#34;devil-may-cry-3&#34;&gt;Devil May Cry 3
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/DMC.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;dmc&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Para mi gusto el mejor Hack and Slash de la Historia. Me sabe algo mal por las nuevas generaciones que quizás no tengan el privilegio de jugar este juego.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Devil May Cry 3&lt;/code&gt; juego es canónicamente considerado el primero de la saga y nos pone en control de un joven Dante el cual apenas está empezando su negocio de cazador de demonios, mientras tanto Vergil el hermano de Dante está en su propia misión para recuperar el poder del caballero oscuro Sparda, es así como un misterioso hombre llamado Arkham entra en escena y le cuenta a Vergil la leyenda de la Temen-Ni-Gru la cual es una torre maldita que funciona como la llave que abrirá la puerta al infierno. Así es como la nueva aventura de Dante empieza, en una carrera contra el tiempo para detener los planes de Vergil.&lt;/p&gt;
+&lt;p&gt;Es un excelente juego, con una banda sonora espectacular, lleno de acción y combates a alta velocidad, mezclando buenas mecánicas de juego más un gran compendio de armas, habilidades y técnicas, el juego presenta también diferentes modos de juego y una buena historia en general, la cual está debidamente conectada con su secuela.&lt;/p&gt;
+&lt;h2 id=&#34;hollow-knight&#34;&gt;Hollow Knight
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hknight.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;hollow-knight&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Sinceramente una obra maestra. El mundo a descubrir es hermoso, una atmosfera completamente diferente a cualquiera otra. Siempre habrá algún que otro enemigo que intentará dar pelea, aunque cuando conoces su historia en profundidad, los puedes llegar a entender. Nuestro personaje sufre un desarrollo gigantesco, llegando a su máximo al final de la historia cuando entiendes todo.&lt;/p&gt;
+&lt;p&gt;La música de cada combate junto a la complejidad de estos hace que te entre una adrenalina gigantesca, siendo cada uno único. En temas de dificultad es bastante desafiante pero nada que no podamos superar. Cada personaje o elemento del mapa tiene algo que contarte o que enseñarte, dandote pequeñas pistas sobre el mundo que rodea al protagonista aunque a veces puedan ser cosas absurdas.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Markdown</title>
-        <link>http://localhost:34729/p/markdown/</link>
+        <link>http://localhost:1313/p/markdown/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:34729/p/markdown/</guid>
-        <description>&lt;img src="http://localhost:34729/p/markdown/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown" /&gt;&lt;p&gt;Este artículo ofrece un ejemplo de la sintaxis básica de Markdown que se puede utilizar en archivos de contenido de Hugo, una explicación de los recursos que he empleado para desarrollar esta misma página.&lt;/p&gt;
+        <guid>http://localhost:1313/p/markdown/</guid>
+        <description>&lt;img src="http://localhost:1313/p/markdown/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown" /&gt;&lt;p&gt;Este artículo ofrece un ejemplo de la sintaxis básica de Markdown que se puede utilizar en archivos de contenido de Hugo, una explicación de los recursos que he empleado para desarrollar esta misma página.&lt;/p&gt;
 &lt;h2 id=&#34;headings&#34;&gt;Headings
 &lt;/h2&gt;&lt;p&gt;Los siguientes elementos HTML del &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; a &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; representan seis niveles de encabezados o headers. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; es el nivel más alto, mientras que &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; es el más bajo.&lt;/p&gt;
 &lt;h1 id=&#34;h1&#34;&gt;H1
@@ -199,10 +265,10 @@ será un elemento independiente o hijo del anterior.&lt;/p&gt;
         </item>
         <item>
         <title>Sobre Mí</title>
-        <link>http://localhost:34729/sobre-m%C3%AD/</link>
+        <link>http://localhost:1313/sobre-m%C3%AD/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:34729/sobre-m%C3%AD/</guid>
+        <guid>http://localhost:1313/sobre-m%C3%AD/</guid>
         <description>&lt;p&gt;Como decía anteriormente, soy Milad, un estudiante de segundo de Desarrollo de Aplicaciones Web en el centro Los Enlaces en Zaragoza. A lo largo de estos dos años de estudio en el Ciclo Formativo he aprendido mucho sobre el mundo de la informática y la programación. Lenguajes como Java, PHP, JavaScript e incluso HTML y CSS si se pueden considerar como tal. Además de esto se manejar bases de datos de SQLite, MySQL y Oracle y también he sido formado para saber emplear sistemas de control de versiones como GitHub.&lt;/p&gt;
 &lt;p&gt;Antes de empezar el CFGS comenzé una carrera en Ingeniería Informática en la Unversidad de Zaragoza y a pesar de que me fuera bien en el curso académico, debido a varios factores decidí dejar los estudios universitarios para más adelante.&lt;/p&gt;
 &lt;p&gt;Clasificando mis conocimientos en una lista quedarían de este modo:&lt;/p&gt;
@@ -233,10 +299,10 @@ será un elemento independiente o hijo del anterior.&lt;/p&gt;
         </item>
         <item>
         <title>Rich Content</title>
-        <link>http://localhost:34729/p/rich-content/</link>
+        <link>http://localhost:1313/p/rich-content/</link>
         <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:34729/p/rich-content/</guid>
+        <guid>http://localhost:1313/p/rich-content/</guid>
         <description>&lt;p&gt;Hugo ships with several &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;
@@ -322,11 +388,11 @@ será un elemento independiente o hijo del anterior.&lt;/p&gt;
         </item>
         <item>
         <title>Placeholder Text</title>
-        <link>http://localhost:34729/p/placeholder-text/</link>
+        <link>http://localhost:1313/p/placeholder-text/</link>
         <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:34729/p/placeholder-text/</guid>
-        <description>&lt;img src="http://localhost:34729/p/placeholder-text/matt-le-SJSpo9hQf7s-unsplash.jpg" alt="Featured image of post Placeholder Text" /&gt;&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;
+        <guid>http://localhost:1313/p/placeholder-text/</guid>
+        <description>&lt;img src="http://localhost:1313/p/placeholder-text/matt-le-SJSpo9hQf7s-unsplash.jpg" alt="Featured image of post Placeholder Text" /&gt;&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;
 &lt;p&gt;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Exierant elisi ambit vivere dedere&lt;/li&gt;
@@ -353,10 +419,10 @@ será un elemento independiente o hijo del anterior.&lt;/p&gt;
         </item>
         <item>
         <title>Math Typesetting</title>
-        <link>http://localhost:34729/p/math-typesetting/</link>
+        <link>http://localhost:1313/p/math-typesetting/</link>
         <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:34729/p/math-typesetting/</guid>
+        <guid>http://localhost:1313/p/math-typesetting/</guid>
         <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;
 &lt;p&gt;In this example we will be using &lt;a class=&#34;link&#34; href=&#34;https://katex.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;KaTeX&lt;/a&gt;&lt;/p&gt;
@@ -395,18 +461,18 @@ $$</description>
         </item>
         <item>
         <title>Buscar</title>
-        <link>http://localhost:34729/search/</link>
+        <link>http://localhost:1313/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:34729/search/</guid>
+        <guid>http://localhost:1313/search/</guid>
         <description></description>
         </item>
         <item>
         <title>Links</title>
-        <link>http://localhost:34729/links/</link>
+        <link>http://localhost:1313/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:34729/links/</guid>
+        <guid>http://localhost:1313/links/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;

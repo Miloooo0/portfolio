@@ -1,6 +1,8 @@
 +++
 title = "Markdown"
 date = "2024-11-20"
+author = "Milad Al Chihabi"
+
 description = "Guia básica de Markdown"
 tags = [
     "markdown",

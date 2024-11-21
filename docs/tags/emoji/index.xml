@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Emoji on Inicio</title>
-        <link>http://localhost:34729/tags/emoji/</link>
+        <link>http://localhost:1313/tags/emoji/</link>
         <description>Recent content in Emoji on Inicio</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Thu, 21 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:34729/tags/emoji/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 21 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/emoji/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Emojis en Hugo</title>
-        <link>http://localhost:34729/p/emojis-en-hugo/</link>
+        <link>http://localhost:1313/p/emojis-en-hugo/</link>
         <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:34729/p/emojis-en-hugo/</guid>
-        <description>&lt;img src="http://localhost:34729/p/emojis-en-hugo/emojis.jpg" alt="Featured image of post Emojis en Hugo" /&gt;&lt;p&gt;En Hugo se pueden insertar emojis en contenido de Markdown, para ello, hay diversas opciones.&lt;/p&gt;
+        <guid>http://localhost:1313/p/emojis-en-hugo/</guid>
+        <description>&lt;img src="http://localhost:1313/p/emojis-en-hugo/emojis.jpg" alt="Featured image of post Emojis en Hugo" /&gt;&lt;p&gt;En Hugo se pueden insertar emojis en contenido de Markdown, para ello, hay diversas opciones.&lt;/p&gt;
 &lt;p&gt;La función &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/functions/emojify/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;code&gt;emojify&lt;/code&gt;&lt;/a&gt; puede ser llamada directamente empleando &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Shortcodes&lt;/a&gt;.&lt;/p&gt;

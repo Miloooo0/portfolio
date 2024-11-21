@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Css on Inicio</title>
-        <link>http://localhost:34729/tags/css/</link>
+        <link>http://localhost:1313/tags/css/</link>
         <description>Recent content in Css on Inicio</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:34729/tags/css/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/css/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Markdown</title>
-        <link>http://localhost:34729/p/markdown/</link>
+        <link>http://localhost:1313/p/markdown/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:34729/p/markdown/</guid>
-        <description>&lt;img src="http://localhost:34729/p/markdown/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown" /&gt;&lt;p&gt;Este artículo ofrece un ejemplo de la sintaxis básica de Markdown que se puede utilizar en archivos de contenido de Hugo, una explicación de los recursos que he empleado para desarrollar esta misma página.&lt;/p&gt;
+        <guid>http://localhost:1313/p/markdown/</guid>
+        <description>&lt;img src="http://localhost:1313/p/markdown/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown" /&gt;&lt;p&gt;Este artículo ofrece un ejemplo de la sintaxis básica de Markdown que se puede utilizar en archivos de contenido de Hugo, una explicación de los recursos que he empleado para desarrollar esta misma página.&lt;/p&gt;
 &lt;h2 id=&#34;headings&#34;&gt;Headings
 &lt;/h2&gt;&lt;p&gt;Los siguientes elementos HTML del &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; a &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; representan seis niveles de encabezados o headers. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; es el nivel más alto, mientras que &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; es el más bajo.&lt;/p&gt;
 &lt;h1 id=&#34;h1&#34;&gt;H1

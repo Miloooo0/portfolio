@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Videojuegos on Inicio</title>
+        <link>http://localhost:1313/categories/videojuegos/</link>
+        <description>Recent content in Videojuegos on Inicio</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Thu, 21 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/videojuegos/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Videojuegos</title>
+        <link>http://localhost:1313/p/videojuegos/</link>
+        <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/videojuegos/</guid>
+        <description>&lt;img src="http://localhost:1313/videojuegos.jpg" alt="Featured image of post Videojuegos" /&gt;&lt;p&gt;Bueno, como buen estudiante de informática, me apasionan los videojuegos, los comics, el anime y todas estas cosas tan cliché que hacen que nos llamen &amp;ldquo;frikis&amp;rdquo; y &amp;ldquo;nerds&amp;rdquo; a los informáticos. Como este es mi blog, voy a hablar de algunos de los videojuegos que me gustan.&lt;/p&gt;
+&lt;p&gt;&amp;lt;kh.jpg&amp;gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
