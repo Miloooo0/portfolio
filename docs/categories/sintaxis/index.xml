@@ -2,17 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Sintaxis on Inicio</title>
-        <link>http://localhost:36587/categories/sintaxis/</link>
+        <link>http://localhost:34729/categories/sintaxis/</link>
         <description>Recent content in Sintaxis on Inicio</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:36587/categories/sintaxis/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 21 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:34729/categories/sintaxis/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Emojis en Hugo</title>
+        <link>http://localhost:34729/p/emojis-en-hugo/</link>
+        <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:34729/p/emojis-en-hugo/</guid>
+        <description>&lt;img src="http://localhost:34729/p/emojis-en-hugo/emojis.jpg" alt="Featured image of post Emojis en Hugo" /&gt;&lt;p&gt;En Hugo se pueden insertar emojis en contenido de Markdown, para ello, hay diversas opciones.&lt;/p&gt;
+&lt;p&gt;La función &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/functions/emojify/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;code&gt;emojify&lt;/code&gt;&lt;/a&gt; puede ser llamada directamente empleando &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Shortcodes&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Para habilitar de manera global los emojis solo hay que darle el valor &lt;code&gt;true&lt;/code&gt; a &lt;code&gt;enableEmoji&lt;/code&gt; en el archivo toml o yaml del sitio de Hugo y ya estaría configurado para poder usar shortcodes para el uso de emojis en los archivos de contenido.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;🙈&lt;/span&gt; &lt;code&gt;:see_no_evil:&lt;/code&gt;&lt;/span&gt;  &lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;🙉&lt;/span&gt; &lt;code&gt;:hear_no_evil:&lt;/code&gt;&lt;/span&gt;  &lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;🙊&lt;/span&gt; &lt;code&gt;:speak_no_evil:&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;br&gt;
+Se recomienda el uso de sitios como [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) para obtener los códigos de los emojis.
+The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Anotación:&lt;/strong&gt; Los pasos de arriba habilitan los emojis en el estándar Unicode en Hugo, sin embargo, el renderizado de estos elementos depende del navegador y la plataforma.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Markdown</title>
-        <link>http://localhost:36587/p/markdown/</link>
+        <link>http://localhost:34729/p/markdown/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:36587/p/markdown/</guid>
-        <description>&lt;img src="http://localhost:36587/p/markdown/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown" /&gt;&lt;p&gt;Este artículo ofrece un ejemplo de la sintaxis básica de Markdown que se puede utilizar en archivos de contenido de Hugo, una explicación de los recursos que he empleado para desarrollar esta misma página.&lt;/p&gt;
+        <guid>http://localhost:34729/p/markdown/</guid>
+        <description>&lt;img src="http://localhost:34729/p/markdown/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown" /&gt;&lt;p&gt;Este artículo ofrece un ejemplo de la sintaxis básica de Markdown que se puede utilizar en archivos de contenido de Hugo, una explicación de los recursos que he empleado para desarrollar esta misma página.&lt;/p&gt;
 &lt;h2 id=&#34;headings&#34;&gt;Headings
 &lt;/h2&gt;&lt;p&gt;Los siguientes elementos HTML del &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; a &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; representan seis niveles de encabezados o headers. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; es el nivel más alto, mientras que &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; es el más bajo.&lt;/p&gt;
 &lt;h1 id=&#34;h1&#34;&gt;H1
@@ -151,6 +170,15 @@ será un elemento independiente o hijo del anterior.&lt;/p&gt;
 &lt;p&gt;Remarcado (mark): Algunos dispositivos emplean la arquitectura &lt;mark&gt;ARM64&lt;/mark&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;videos-de-youtube&#34;&gt;Videos de YouTube
 &lt;/h2&gt;&lt;p&gt;Se pueden insertar videos de YouTube con el uso de shortcodes, para ello, basta con poner entre corchetes &amp;ldquo;youtube&amp;rdquo; y luego el id del video que queremos insertar.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/hjD9jTi_DQ4&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
 &lt;br&gt;
 &lt;h2 id=&#34;imágenes-en-línea-con-enlaces&#34;&gt;Imágenes en línea con enlaces
 &lt;/h2&gt;&lt;p&gt;Usando markdown, podemos insertar imágenes en línea con un enlace a la imagen, para ello, basta con poner el texto que queremos que se vea en el enlace entre corchetes y luego el enlace al archivo de la imagen entre parentesis. En adición se puede incluir despues de este enlace entre parentesis el enlace a la página web.&lt;/p&gt;

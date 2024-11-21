@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on Inicio</title>
-        <link>http://localhost:36587/categories/</link>
+        <link>http://localhost:34729/categories/</link>
         <description>Recent content in Categories on Inicio</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:36587/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 21 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:34729/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Sintaxis</title>
-        <link>http://localhost:36587/categories/sintaxis/</link>
-        <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+        <link>http://localhost:34729/categories/sintaxis/</link>
+        <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:36587/categories/sintaxis/</guid>
+        <guid>http://localhost:34729/categories/sintaxis/</guid>
         <description></description>
         </item>
         <item>
         <title>Temas</title>
-        <link>http://localhost:36587/categories/temas/</link>
+        <link>http://localhost:34729/categories/temas/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:36587/categories/temas/</guid>
+        <guid>http://localhost:34729/categories/temas/</guid>
         <description></description>
         </item>
         <item>
         <title>Test</title>
-        <link>http://localhost:36587/categories/test/</link>
+        <link>http://localhost:34729/categories/test/</link>
         <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:36587/categories/test/</guid>
-        <description>&lt;img src="http://localhost:36587/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
+        <guid>http://localhost:34729/categories/test/</guid>
+        <description>&lt;img src="http://localhost:34729/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
         </item>
         <item>
         <title>Test With Whitespaces</title>
-        <link>http://localhost:36587/categories/test-with-whitespaces/</link>
+        <link>http://localhost:34729/categories/test-with-whitespaces/</link>
         <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:36587/categories/test-with-whitespaces/</guid>
+        <guid>http://localhost:34729/categories/test-with-whitespaces/</guid>
         <description></description>
         </item>
         

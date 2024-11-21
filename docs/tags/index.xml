@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on Inicio</title>
-        <link>http://localhost:36587/tags/</link>
+        <link>http://localhost:34729/tags/</link>
         <description>Recent content in Tags on Inicio</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:36587/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 21 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:34729/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Emoji</title>
+        <link>http://localhost:34729/tags/emoji/</link>
+        <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:34729/tags/emoji/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Css</title>
-        <link>http://localhost:36587/tags/css/</link>
+        <link>http://localhost:34729/tags/css/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:36587/tags/css/</guid>
+        <guid>http://localhost:34729/tags/css/</guid>
         <description></description>
         </item>
         <item>
         <title>Html</title>
-        <link>http://localhost:36587/tags/html/</link>
+        <link>http://localhost:34729/tags/html/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:36587/tags/html/</guid>
+        <guid>http://localhost:34729/tags/html/</guid>
         <description></description>
         </item>
         <item>
         <title>Markdown</title>
-        <link>http://localhost:36587/tags/markdown/</link>
+        <link>http://localhost:34729/tags/markdown/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:36587/tags/markdown/</guid>
+        <guid>http://localhost:34729/tags/markdown/</guid>
         <description></description>
         </item>
         <item>
-        <title>Themes</title>
-        <link>http://localhost:36587/tags/themes/</link>
+        <title>Temas</title>
+        <link>http://localhost:34729/tags/temas/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:36587/tags/themes/</guid>
+        <guid>http://localhost:34729/tags/temas/</guid>
         <description></description>
         </item>
         <item>
         <title>Privacy</title>
-        <link>http://localhost:36587/tags/privacy/</link>
+        <link>http://localhost:34729/tags/privacy/</link>
         <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:36587/tags/privacy/</guid>
+        <guid>http://localhost:34729/tags/privacy/</guid>
         <description></description>
         </item>
         <item>
         <title>Shortcodes</title>
-        <link>http://localhost:36587/tags/shortcodes/</link>
+        <link>http://localhost:34729/tags/shortcodes/</link>
         <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:36587/tags/shortcodes/</guid>
+        <guid>http://localhost:34729/tags/shortcodes/</guid>
         <description></description>
         </item>
         <item>
         <title>Tag With Whitespaces</title>
-        <link>http://localhost:36587/tags/tag-with-whitespaces/</link>
+        <link>http://localhost:34729/tags/tag-with-whitespaces/</link>
         <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:36587/tags/tag-with-whitespaces/</guid>
+        <guid>http://localhost:34729/tags/tag-with-whitespaces/</guid>
         <description></description>
         </item>
         <item>
         <title>Text</title>
-        <link>http://localhost:36587/tags/text/</link>
+        <link>http://localhost:34729/tags/text/</link>
         <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:36587/tags/text/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Emoji</title>
-        <link>http://localhost:36587/tags/emoji/</link>
-        <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:36587/tags/emoji/</guid>
+        <guid>http://localhost:34729/tags/text/</guid>
         <description></description>
         </item>
         

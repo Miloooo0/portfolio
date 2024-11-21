@@ -1,50 +1,28 @@
 +++
-author = "Hugo Authors"
-title = "Emoji Support"
-date = "2019-03-05"
-description = "Guide to emoji usage in Hugo"
+author = "Milad Al CHihabi"
+title = "Emojis en Hugo"
+date = "2024-11-21" 
+description = "Guia de uso de Emojis en Hugo"
 categories = [
-    "Test"
+    "Sintaxis"
 ]
 tags = [
-    "emoji",
+    "Emoji",
 ]
-image = "the-creative-exchange-d2zvqp3fpro-unsplash.jpg"
+image = "emojis.jpg"
 +++
 
-Emoji can be enabled in a Hugo project in a number of ways. 
-<!--more-->
-The [`emojify`](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes). 
+En Hugo se pueden insertar emojis en contenido de Markdown, para ello, hay diversas opciones.
 
-To enable emoji globally, set `enableEmoji` to `true` in your site's [configuration](https://gohugo.io/getting-started/configuration/) and then you can type emoji shorthand codes directly in content files; e.g.
+La función [`emojify`](https://gohugo.io/functions/emojify/) puede ser llamada directamente empleando [Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes).
+
+Para habilitar de manera global los emojis solo hay que darle el valor `true` a `enableEmoji` en el archivo toml o yaml del sitio de Hugo y ya estaría configurado para poder usar shortcodes para el uso de emojis en los archivos de contenido. 
 
 <p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
 <br>
-
+Se recomienda el uso de sitios como [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) para obtener los códigos de los emojis.
 The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
 
 ***
 
-**N.B.** The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.
-
-{{< highlight html >}}
-.emoji {
-  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-}
-{{< /highlight >}}
-
-{{< css.inline >}}
-<style>
-.emojify {
-	font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-	font-size: 2rem;
-	vertical-align: middle;
-}
-@media screen and (max-width:650px) {
-  .nowrap {
-    display: block;
-    margin: 25px 0;
-  }
-}
-</style>
-{{< /css.inline >}}
+**Anotación:** Los pasos de arriba habilitan los emojis en el estándar Unicode en Hugo, sin embargo, el renderizado de estos elementos depende del navegador y la plataforma.
