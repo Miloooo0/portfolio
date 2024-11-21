@@ -131,6 +131,14 @@ Teclas (kbd): <kbd>CTRL</kbd> + <kbd>F</kbd> para buscar dentro de la página.
 
 Remarcado (mark): Algunos dispositivos emplean la arquitectura <mark>ARM64</mark>.
 
+## Videos de YouTube
+Se pueden insertar videos de YouTube con el uso de shortcodes, para ello, basta con poner entre corchetes "youtube" y luego el id del video que queremos insertar.
+
+{{< youtube hjD9jTi_DQ4 >}}
+
+<br>
+
+
 ## Imágenes en línea con enlaces
 Usando markdown, podemos insertar imágenes en línea con un enlace a la imagen, para ello, basta con poner el texto que queremos que se vea en el enlace entre corchetes y luego el enlace al archivo de la imagen entre parentesis. En adición se puede incluir despues de este enlace entre parentesis el enlace a la página web.
 
@@ -139,3 +147,4 @@ Este sería el código markdown para insertar una imagen en línea con un enlace
 `[![facebookImagen](https://www.almoradi.es/wp-content/uploads/2022/02/Facebook-logo-1.png)](https://www.facebook.com)`
 
 [![facebookImagen](https://www.almoradi.es/wp-content/uploads/2022/02/Facebook-logo-1.png)](https://www.facebook.com)
+

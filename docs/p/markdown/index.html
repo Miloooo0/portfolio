@@ -134,7 +134,7 @@
 
 
                 
-                <span>Homes</span>
+                <span>Inicio</span>
             </a>
         </li>
         
@@ -276,6 +276,7 @@
       </ol>
     </li>
     <li><a href="#otros-elementos--abbr-sub-sup-kbd-mark">Otros elementos — abbr, sub, sup, kbd, mark</a></li>
+    <li><a href="#videos-de-youtube">Videos de YouTube</a></li>
     <li><a href="#imágenes-en-línea-con-enlaces">Imágenes en línea con enlaces</a></li>
   </ol>
 </nav>
@@ -513,6 +514,18 @@ será un elemento independiente o hijo del anterior.</p>
 <p>Superíndice (sup): X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup></p>
 <p>Teclas (kbd): <kbd>CTRL</kbd> + <kbd>F</kbd> para buscar dentro de la página.</p>
 <p>Remarcado (mark): Algunos dispositivos emplean la arquitectura <mark>ARM64</mark>.</p>
+<h2 id="videos-de-youtube">Videos de YouTube
+</h2><p>Se pueden insertar videos de YouTube con el uso de shortcodes, para ello, basta con poner entre corchetes &ldquo;youtube&rdquo; y luego el id del video que queremos insertar.</p>
+<div class="video-wrapper">
+    <iframe loading="lazy" 
+            src="https://www.youtube.com/embed/hjD9jTi_DQ4" 
+            allowfullscreen 
+            title="YouTube Video"
+    >
+    </iframe>
+</div>
+
+<br>
 <h2 id="imágenes-en-línea-con-enlaces">Imágenes en línea con enlaces
 </h2><p>Usando markdown, podemos insertar imágenes en línea con un enlace a la imagen, para ello, basta con poner el texto que queremos que se vea en el enlace entre corchetes y luego el enlace al archivo de la imagen entre parentesis. En adición se puede incluir despues de este enlace entre parentesis el enlace a la página web.</p>
 <p>Este sería el código markdown para insertar una imagen en línea con un enlace a la imagen.</p>
@@ -547,18 +560,6 @@ será un elemento independiente o hijo del anterior.</p>
     </section>
 
 
-    
-    <section class="article-copyright">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
-</svg>
-
-
-
-        <span>Licensed under CC BY-NC-SA 4.0</span>
-    </section>
     </footer>
 
 
@@ -573,26 +574,7 @@ será un elemento independiente o hijo del anterior.</p>
     
         
     <div class="disqus-container">
-    <div id="disqus_thread"></div>
-<script>
-    window.disqus_config = function () {
     
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
 
 <style>
@@ -619,8 +601,6 @@ será un elemento independiente o hijo del anterior.</p>
     <footer class="site-footer">
     <section class="copyright">
         &copy; 
-        
-            2020 - 
         
         2024 Inicio
     </section>

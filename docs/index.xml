@@ -149,6 +149,18 @@ será un elemento independiente o hijo del anterior.&lt;/p&gt;
 &lt;p&gt;Superíndice (sup): X&lt;sup&gt;n&lt;/sup&gt; + Y&lt;sup&gt;n&lt;/sup&gt; = Z&lt;sup&gt;n&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Teclas (kbd): &lt;kbd&gt;CTRL&lt;/kbd&gt; + &lt;kbd&gt;F&lt;/kbd&gt; para buscar dentro de la página.&lt;/p&gt;
 &lt;p&gt;Remarcado (mark): Algunos dispositivos emplean la arquitectura &lt;mark&gt;ARM64&lt;/mark&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;videos-de-youtube&#34;&gt;Videos de YouTube
+&lt;/h2&gt;&lt;p&gt;Se pueden insertar videos de YouTube con el uso de shortcodes, para ello, basta con poner entre corchetes &amp;ldquo;youtube&amp;rdquo; y luego el id del video que queremos insertar.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/hjD9jTi_DQ4&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
 &lt;h2 id=&#34;imágenes-en-línea-con-enlaces&#34;&gt;Imágenes en línea con enlaces
 &lt;/h2&gt;&lt;p&gt;Usando markdown, podemos insertar imágenes en línea con un enlace a la imagen, para ello, basta con poner el texto que queremos que se vea en el enlace entre corchetes y luego el enlace al archivo de la imagen entre parentesis. En adición se puede incluir despues de este enlace entre parentesis el enlace a la página web.&lt;/p&gt;
 &lt;p&gt;Este sería el código markdown para insertar una imagen en línea con un enlace a la imagen.&lt;/p&gt;
@@ -210,17 +222,6 @@ será un elemento independiente o hijo del anterior.&lt;/p&gt;
     &gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;youtube-privacy-enhanced-shortcode&#34;&gt;YouTube Privacy Enhanced Shortcode
-&lt;/h2&gt;&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe loading=&#34;lazy&#34; 
-            src=&#34;https://www.youtube.com/embed/ZJthWmvUzzc&#34; 
-            allowfullscreen 
-            title=&#34;YouTube Video&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;br&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;twitter-simple-shortcode&#34;&gt;Twitter Simple Shortcode
 &lt;/h2&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;“In addition to being more logical, asymmetry has the advantage that its complete appearance is far more optically effective than symmetry.”&lt;br&gt;— Jan Tschichold &lt;a href=&#34;https://t.co/gcv7SrhvJb&#34;&gt;pic.twitter.com/gcv7SrhvJb&lt;/a&gt;&lt;/p&gt;&amp;mdash; Design Reviewed | Graphic Design History (@DesignReviewed) &lt;a href=&#34;https://twitter.com/DesignReviewed/status/1085870671291310081?ref_src=twsrc%5Etfw&#34;&gt;January 17, 2019&lt;/a&gt;&lt;/blockquote&gt;

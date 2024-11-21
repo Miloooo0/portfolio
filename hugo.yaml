@@ -24,8 +24,8 @@ languages:
 
 services:
     # Change it to your Disqus shortname before using
-    disqus:
-        shortname: "hugo-theme-stack"
+    #disqus:
+    #    shortname: "hugo-theme-stack"
     # GA Tracking ID
     googleAnalytics:
         id:
@@ -45,7 +45,7 @@ params:
     favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
-        since: 2020
+        #since: 2020
         customText:
 
     dateFormat:
@@ -65,7 +65,7 @@ params:
         toc: true
         readingTime: true
         license:
-            enabled: true
+            enabled: false
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
