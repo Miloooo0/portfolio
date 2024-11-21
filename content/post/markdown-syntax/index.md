@@ -68,26 +68,20 @@ Las tablas no forman parte de Markdown como tal pero si que son soportadas por H
   Manuel   | 27
    Milad   | 20
 ```
-#### Inline Markdown within tables
+## Bloques de Código con Backticks
 
-| Italics   | Bold     | Code   |
-| --------  | -------- | ------ |
-| *italics* | **bold** | `code` |
+Con Markdown, podemos crear bloques de código con el uso de backticks o acentos invertidos,
+para ello, basta con poner el texto que queremos que se vea en el bloque de código entre 3 de los mismos. Además, se puede incluir un nombre de idioma para el bloque de código, para ello, basta con
+agregarle al final el nombre despues de los primeros acentos, como en el siguiente ejemplo:
 
-| A                                                        | B                                                                                                             | C                                                                                                                                    | D                                                 | E                                                          | F                                                                    |
-|----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|------------------------------------------------------------|----------------------------------------------------------------------|
-| Lorem ipsum dolor sit amet, consectetur adipiscing elit. | Phasellus ultricies, sapien non euismod aliquam, dui ligula tincidunt odio, at accumsan nulla sapien eget ex. | Proin eleifend dictum ipsum, non euismod ipsum pulvinar et. Vivamus sollicitudin, quam in pulvinar aliquam, metus elit pretium purus | Proin sit amet velit nec enim imperdiet vehicula. | Ut bibendum vestibulum quam, eu egestas turpis gravida nec | Sed scelerisque nec turpis vel viverra. Vivamus vitae pretium sapien |
-
-## Code Blocks
-
-#### Code block with backticks
+\```html codigo```
 
 ```html
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Example HTML5 Document</title>
+  <title>Ejemplo</title>
 </head>
 <body>
   <p>Test</p>
@@ -95,79 +89,49 @@ Las tablas no forman parte de Markdown como tal pero si que son soportadas por H
 </html>
 ```
 
-#### Code block indented with four spaces
+## Listas
 
-    <!doctype html>
-    <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>Example HTML5 Document</title>
-    </head>
-    <body>
-      <p>Test</p>
-    </body>
-    </html>
+#### Listas Ordenadas
+Se pueden crear listas ordenadas colocando el numero de posición seguido de un punto y el elemento.
 
-#### Code block with Hugo's internal highlight shortcode
-{{< highlight html >}}
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-{{< /highlight >}}
+1. Crear el Virtual Host en Sites-Available 
+2. Activar el Virtual Host con a2ensite
+3. Agregar la dirección al archivo hosts del sistema en etc/hosts
 
-#### Diff code block
+#### Listas Independientes del Orden
+Se pueden crear listas "desordenadas" colocando asteriscos o guiones antes del texto del elemento.
 
-```diff
-[dependencies.bevy]
-git = "https://github.com/bevyengine/bevy"
-rev = "11f52b8c72fc3a568e8bb4a4cd1f3eb025ac2e13"
-- features = ["dynamic"]
-+ features = ["jpeg", "dynamic"]
-```
+* Intel i5-8300H
+* NVIDIA GeForce GTX 1050
+* 16 GB de RAM
 
-## List Types
+#### Listas Anidadas
+Se pueden crear listas anidadas colocando asteriscos o guiones antes del texto del elemento y segun la identación,
+será un elemento independiente o hijo del anterior.
 
-#### Ordered List
+* Fruta
+  * Manzanas
+  * Naranjas
+  * Platanos
+* Basico
+  * Leche
+  * Pan de Molde
 
-1. First item
-2. Second item
-3. Third item
+## Otros elementos — abbr, sub, sup, kbd, mark
+Todas estas etiquetas se emplean con la siguiente sintaxis:
+\<etiqueta>texto\</etiqueta>
 
-#### Unordered List
+Texto abreviado o siglas (abbr): <abbr title="Graphics Interchange Format">GIF</abbr> es un formato gráfico para imágenes y animaciones.
 
-* List item
-* Another item
-* And another item
+Subíndice (sub): CO<sub>2</sub> 
 
-#### Nested list
+Superíndice (sup): X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 
-* Fruit
-  * Apple
-  * Orange
-  * Banana
-* Dairy
-  * Milk
-  * Cheese
+Teclas (kbd): <kbd>CTRL</kbd> + <kbd>F</kbd> para buscar dentro de la página.
 
-## Other Elements — abbr, sub, sup, kbd, mark
+Remarcado (mark): Algunos dispositivos emplean la arquitectura <mark>ARM64</mark>.
 
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
+## Imágenes en línea
 
-H<sub>2</sub>O
-
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
-
-Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> to end the session.
-
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
-
-## Hyperlinked image
 
 [![Google](https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png)](https://google.com)
