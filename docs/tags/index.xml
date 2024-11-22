@@ -31,6 +31,14 @@
         <description></description>
         </item>
         <item>
+        <title>Televisión</title>
+        <link>http://localhost:1313/tags/televisi%C3%B3n/</link>
+        <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/televisi%C3%B3n/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Emoji</title>
         <link>http://localhost:1313/tags/emoji/</link>
         <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
@@ -76,22 +84,6 @@
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/tags/temas/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Privacy</title>
-        <link>http://localhost:1313/tags/privacy/</link>
-        <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/tags/privacy/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Shortcodes</title>
-        <link>http://localhost:1313/tags/shortcodes/</link>
-        <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/tags/shortcodes/</guid>
         <description></description>
         </item>
         

@@ -11,6 +11,9 @@
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-11-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/extras/</loc>
+    <lastmod>2024-11-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/gu%C3%ADa/</loc>
     <lastmod>2024-11-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -33,6 +36,12 @@
     <lastmod>2024-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/televisi%C3%B3n/</loc>
+    <lastmod>2024-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/televisi%C3%B3n/</loc>
     <lastmod>2024-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/emoji/</loc>
@@ -77,21 +86,7 @@
     <loc>http://localhost:1313/categories/temas/</loc>
     <lastmod>2024-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/shortcodes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/math-typesetting/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/search/</loc>
-  </url><url>
-    <loc>http://localhost:1313/links/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/test/</loc>
   </url>
