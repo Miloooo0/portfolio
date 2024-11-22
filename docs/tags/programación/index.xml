@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Programación on Inicio</title>
+        <link>http://localhost:1313/tags/programaci%C3%B3n/</link>
+        <description>Recent content in Programación on Inicio</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Fri, 22 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/programaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Lo más básico de Java</title>
+        <link>http://localhost:1313/p/lo-m%C3%A1s-b%C3%A1sico-de-java/</link>
+        <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/lo-m%C3%A1s-b%C3%A1sico-de-java/</guid>
+        <description>&lt;img src="http://localhost:1313/p/lo-m%C3%A1s-b%C3%A1sico-de-java/orbtal-media-1td5Iq5IvNc-unsplash.jpg" alt="Featured image of post Lo más básico de Java" /&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Introducción a Java&lt;/p&gt;
+&lt;p&gt;¿Qué es Java? Un lenguaje de programación orientado a objetos, multiplataforma y ampliamente utilizado para desarrollar aplicaciones de escritorio, web y móviles.
+Por qué aprender Java? Es versátil, tiene una gran comunidad y es demandado en el mercado laboral.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hola Mundo: Tu Primer Programa en Java
+Java&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;public class HolaMundo {
+public static void main(String[] args) {
+System.out.println(&amp;quot;¡Hola, mundo!&amp;quot;);
+}
+}&lt;/p&gt;
+&lt;p&gt;Usa el código con precaución.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Explicación:
+    public class HolaMundo: Define una clase pública llamada &amp;quot;HolaMundo&amp;quot;.
+    public static void main(String[] args): Es el método principal donde comienza la ejecución.
+    System.out.println: Imprime el mensaje en la consola.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Variables y Tipos de Datos&lt;/p&gt;
+&lt;p&gt;Variables: Contenedores para almacenar datos.
+Tipos de datos:
+Primitivos: int, double, char, boolean.
+Referencia: String, objetos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Java&lt;/p&gt;
+&lt;p&gt;int edad = 30;
+double altura = 1.75;
+char inicial = &amp;lsquo;A&amp;rsquo;;
+boolean esEstudiante = true;
+String nombre = &amp;ldquo;Juan&amp;rdquo;;&lt;/p&gt;
+&lt;p&gt;Usa el código con precaución.
+4. Operadores&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Aritméticos: +, -, *, /, %.
+Relacionales: ==, !=, &amp;lt;, &amp;gt;, &amp;lt;=, &amp;gt;=.
+Lógicos: &amp;amp;&amp;amp;, ||, !.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Java&lt;/p&gt;
+&lt;p&gt;int x = 10;
+int y = 5;
+boolean resultado = x &amp;gt; y &amp;amp;&amp;amp; y &amp;lt; 10;&lt;/p&gt;
+&lt;p&gt;Usa el código con precaución.
+5. Estructuras de Control&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Condicionales: if, else if, else.
+Bucles: for, while, do-while.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Java&lt;/p&gt;
+&lt;p&gt;if (edad &amp;gt;= 18) {
+System.out.println(&amp;ldquo;Eres mayor de edad.&amp;rdquo;);
+} else {
+System.out.println(&amp;ldquo;Eres menor de edad.&amp;rdquo;);
+}&lt;/p&gt;
+&lt;p&gt;for (int i = 0; i &amp;lt; 5; i++) {
+System.out.println(&amp;ldquo;Iteración: &amp;quot; + i);
+}&lt;/p&gt;
+&lt;p&gt;Usa el código con precaución.
+6. Arrays&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Colecciones: Para almacenar múltiples valores del mismo tipo.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Java&lt;/p&gt;
+&lt;p&gt;int[] numeros = {1, 2, 3, 4, 5};&lt;/p&gt;
+&lt;p&gt;Usa el código con precaución.
+7. Clases y Objetos&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Clases: Plantillas para crear objetos.
+Objetos: Instancias de una clase.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Java&lt;/p&gt;
+&lt;p&gt;public class Perro {
+String nombre;
+int edad;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public void ladrar() {
+    System.out.println(&amp;quot;¡Guau!&amp;quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}&lt;/p&gt;
+&lt;p&gt;// Crear un objeto
+Perro miPerro = new Perro();
+miPerro.nombre = &amp;ldquo;Fido&amp;rdquo;;
+miPerro.ladrar();&lt;/p&gt;
+&lt;p&gt;Usa el código con precaución.
+8. Encapsulación&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Ocultar la implementación: Hacer los atributos privados y proporcionar métodos públicos (getters y setters) para acceder a ellos.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;9&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Herencia&lt;/p&gt;
+&lt;p&gt;Crear jerarquías de clases: Una clase puede heredar atributos y métodos de otra clase (clase padre).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Java&lt;/p&gt;
+&lt;p&gt;public class Animal {
+public void comer() {
+System.out.println(&amp;ldquo;Comiendo&amp;hellip;&amp;rdquo;);
+}
+}&lt;/p&gt;
+&lt;p&gt;public class Perro extends Animal {
+public void ladrar() {
+System.out.println(&amp;quot;¡Guau!&amp;rdquo;);
+}
+}&lt;/p&gt;
+&lt;p&gt;Usa el código con precaución.
+10. Polimorfismo&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Múltiples formas: Un mismo método puede tener diferentes implementaciones en clases hijas.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;11&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Abstracción&lt;/p&gt;
+&lt;p&gt;Clases abstractas e interfaces: Definen un contrato que las clases hijas deben cumplir.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Excepciones&lt;/p&gt;
+&lt;p&gt;Manejo de errores: try, catch, finally.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Entrada/Salida&lt;/p&gt;
+&lt;p&gt;Leer y escribir datos: Scanner, PrintWriter.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Colecciones&lt;/p&gt;
+&lt;p&gt;Listas, conjuntos, mapas: ArrayList, HashSet, HashMap.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ficheros&lt;/p&gt;
+&lt;p&gt;Leer y escribir en archivos: FileReader, FileWriter.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Programación Concurrente&lt;/p&gt;
+&lt;p&gt;Hilos: Threads.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Recursos Adicionales:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Tutoriales en línea: Oracle, Udemy, Coursera.
+Libros: &amp;quot;Thinking in Java&amp;quot; de Bruce Eckel.
+Comunidades: Stack Overflow, Foros de Java.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Próximos Pasos:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Practicar: Resuelve ejercicios y proyectos.
+Exploración: Aprende sobre frameworks como Spring, bibliotecas como Apache Commons y tecnologías como Servlets y JSP.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;¿En qué tema te gustaría profundizar más? Puedo explicarte cualquier concepto con más detalle o proporcionarte ejemplos más específicos.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

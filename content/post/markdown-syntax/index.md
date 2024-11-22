@@ -134,7 +134,7 @@ Teclas (kbd): <kbd>CTRL</kbd> + <kbd>F</kbd> para buscar dentro de la página.
 Remarcado (mark): Algunos dispositivos emplean la arquitectura <mark>ARM64</mark>.
 
 ## Videos de YouTube
-Se pueden insertar videos de YouTube con el uso de shortcodes, para ello, basta con poner entre corchetes "youtube" y luego el id del video que queremos insertar.
+Se pueden insertar videos de YouTube con el uso de shortcodes, para ello, basta con poner entre corchetes el nombre del shortcode previamente creado y luego el id del video que queremos insertar.
 
 {{< youtube hjD9jTi_DQ4 >}}
 

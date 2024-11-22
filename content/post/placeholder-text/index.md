@@ -1,51 +1,195 @@
 +++
-author = "Hugo Authors"
-title = "Placeholder Text"
-date = "2019-03-09"
-description = "Lorem Ipsum Dolor Si Amet"
+author = "Milad Al Chihabi"
+title = "Lo más básico de Java"
+date = "2024-11-22"
+description = "Pequeña guía de Java para principiantes"
 categories = [
-    "Test",
-    "Test with whitespaces"
+    "Programación",
+    "Sintaxis",
 ]
 tags = [
-    "markdown",
-    "text",
-    "tag with whitespaces"
+    "Java",
+    "Programación",
+    "Guía"
 ]
-image = "matt-le-SJSpo9hQf7s-unsplash.jpg"
+image = "orbtal-media-1td5Iq5IvNc-unsplash.jpg"
 +++
+## Introducción a Java 
+Java es un lenguaje de programación orientado a objetos, multiplataforma y ampliamente utilizado para desarrollar aplicaciones de escritorio, web y móviles.
 
-Lorem est tota propiore conpellat pectoribus de pectora summo. <!--more-->Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.
+Java se maneja empleando clases, una clase es una plantilla para crear objetos, si no has entendido nada, lo entiendo, pero para que me entiendas, una clase es ese fragmento de código donde vamos a meter el código que queremos ejecutar.
 
-1. Exierant elisi ambit vivere dedere
-2. Duce pollice
-3. Eris modo
-4. Spargitque ferrea quos palude
+Una clase tiene un nombre y un nivel de privacidad del que hablaremos más adelante.
 
-Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.
+Crearemos una clase con un nombre cuya primera letra tiene que estar en mayúsculas, por temas te funcionamiento y practicas correctas de programación. Si queremos que nuestro programa principal este dentro de esta clase, declararemos la función 
+`public static void main(String[]){}` y el codigo de nuestro programa irá dentro de los corchetes.
 
-1. Comas hunc haec pietate fetum procerum dixit
-2. Post torum vates letum Tiresia
-3. Flumen querellas
-4. Arcanaque montibus omnes
-5. Quidem et
+## Salida de Datos
+Para poder sacar datos por pantalla, vamos a necesitar usar `System.out.println()`. Dentro de los paréntesis y entre comillas incluiremos el texto a mostrar.
 
-# Vagus elidunt
+## Hola Mundo
+Para crear nuestro programa Hola Mundo, necesitamos crear una clase llamada HolaMundo, para ello, crea un archivo .java en el que declaremos la clase.
+```java
+public class HolaMundo {
+    public static void main(String[] args) {
+        System.out.println("¡Hola mundo!");
+    }
+}
+```
+Listo! Ya tenemos nuestro primer programa funcional en Java.
 
-<svg class="canon" xmlns="http://www.w3.org/2000/svg" overflow="visible" viewBox="0 0 496 373" height="373" width="496"><g fill="none"><path stroke="#000" stroke-width=".75" d="M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515"></path><path stroke="#ED1C24" stroke-width=".75" d="M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z"></path><path stroke="#000" stroke-width=".75" d="M.479.375h495v372h-495zM247.979.875v372"></path><ellipse cx="498.729" cy="177.625" rx=".75" ry="1.25"></ellipse><ellipse cx="247.229" cy="377.375" rx=".75" ry="1.25"></ellipse></g></svg>
+## Variables y Tipos de Datos
+En Java tenemos 4 tipos primitivos, es decir, las variables pueden ser:
+ - `int` (Enteros)
+ - `double` (Decimales)
+ - `char` (Caractéres)
+ - `boolean` (Booleanos)
 
-[The Van de Graaf Canon](https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon)
+Por otro lado tenemos las cadenas de texto, que son Objetos, elemento que explicaremos más adelante.
+ - String (Cadenas de texto)
 
-## Mane refeci capiebant unda mulcebat
+```java
+int edad = 30;
+double altura = 1.75;
+char inicial = 'A';
+boolean esEstudiante = true;
+String nombre = "Juan";
+```
 
-Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. **Faces illo pepulere** tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.
+## Operadores
+Existen los siguientes operadores:
+- Aritméticos: 
+    - `+` más
+    - `-` menos
+    - `*` por
+    - `/` entre
+    - `%` módulo, es decir, resto de una división
+- Relacionales
+    - `==` 
+    
+    Es un operador de comparación, no de asignación, es decir, que `x == 3` no asigna el valor "3" a "x" sino que comprueba si x tiene el valor 3 y devuelve true o false al evaluarlo.
+    - `!=`
 
-Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.
+    Este operador es el inverso al anterior, es decir, que comprueba si dos elementos son diferentes, mientras que el anterior comprueba si son iguales.
+    - `<`
 
-Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel **mitis temploque** vocatus, inque alis, *oculos nomen* non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides **parte**.
+    Este operador comprueba si un elemento es menor que otro.
+    - `>`
 
-{{< css.inline >}}
-<style>
-.canon { background: white; width: 100%; height: auto; }
-</style>
-{{< /css.inline >}}
+    Este operador comprueba si un elemento es mayor que otro.
+    - `<=`
+
+    Este operador comprueba si un elemento es menor o igual que otro.
+    - `>=`
+
+    Este operador comprueba si un elemento es mayor o igual que otro.
+
+
+- Lógicos
+    - `&&` corresponde con la Y lógica
+    - `||` corresponde con la O lógica
+    - `!`  corresponde con la negación lógica
+```java
+int x = 10;
+int y = 5;
+boolean resultado = x > y && y < 10;
+```
+
+## Estructuras de Control
+ - Condicionales: 
+    - if
+    - else if
+    - else.
+ - Bucles
+    - for
+    - while
+    - do-while.
+```java
+if (edad >= 18) {
+    System.out.println("Eres mayor de edad.");
+} else {
+    System.out.println("Eres menor de edad.");
+}
+
+for (int i = 0; i < 5; i++) {
+    System.out.println("Iteración: " + i);
+}
+```
+
+## Arrays
+Un `array` es una colección de elementos de un mismo tipo, por ejemplo, un array de enteros, o un array de cadenas de texto.
+
+```java
+int[] numeros = {1, 2, 3, 4, 5};
+```
+
+## Clases y Objetos
+Las clases son simplemente plantillas para crear objetos y los objetos son instancias de una clase.
+
+```java
+public class Perro {
+    String nombre;
+    int edad;
+
+    public void ladrar() {
+        System.out.println("¡Guau!");
+    }
+}
+```
+
+```java
+// Crear un objeto
+Perro miPerro = new Perro();
+miPerro.nombre = "Fido";
+miPerro.ladrar();
+```
+## Encapsulación
+
+Ocultar la implementación: Hacer los atributos privados y proporcionar métodos públicos (getters y setters) para acceder a ellos.
+
+## Herencia
+
+Crear jerarquías de clases: Una clase puede heredar atributos y métodos de otra clase (clase padre).
+
+```java
+public class Animal {
+    public void comer() {
+        System.out.println("Comiendo...");
+    }
+}
+```
+
+```java
+public class Perro extends Animal {
+    public void ladrar() {
+        System.out.println("¡Guau!");
+    }
+}
+```
+
+```java
+public class Gato extends Animal {
+    public void ladrar() {
+        System.out.println("¡Miau!");
+    }
+}
+```
+
+## Polimorfismo
+Múltiples formas: Un mismo método puede tener diferentes implementaciones en clases hijas.
+
+## Abstracción
+Clases abstractas e interfaces: Definen un contrato que las clases hijas deben cumplir.
+
+## Excepciones
+Manejo de errores: try, catch, finally.
+
+## Entrada/Salida
+Leer y escribir datos: Scanner, PrintWriter.
+
+## Colecciones
+
+Listas, conjuntos, mapas: ArrayList, HashSet, HashMap.
+
+## Ficheros
+Leer y escribir en archivos: FileReader, FileWriter.

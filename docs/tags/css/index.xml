@@ -150,7 +150,7 @@ será un elemento independiente o hijo del anterior.&lt;/p&gt;
 &lt;p&gt;Teclas (kbd): &lt;kbd&gt;CTRL&lt;/kbd&gt; + &lt;kbd&gt;F&lt;/kbd&gt; para buscar dentro de la página.&lt;/p&gt;
 &lt;p&gt;Remarcado (mark): Algunos dispositivos emplean la arquitectura &lt;mark&gt;ARM64&lt;/mark&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;videos-de-youtube&#34;&gt;Videos de YouTube
-&lt;/h2&gt;&lt;p&gt;Se pueden insertar videos de YouTube con el uso de shortcodes, para ello, basta con poner entre corchetes &amp;ldquo;youtube&amp;rdquo; y luego el id del video que queremos insertar.&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;Se pueden insertar videos de YouTube con el uso de shortcodes, para ello, basta con poner entre corchetes el nombre del shortcode previamente creado y luego el id del video que queremos insertar.&lt;/p&gt;
 &lt;div class=&#34;video-wrapper&#34;&gt;
     &lt;iframe loading=&#34;lazy&#34; 
             src=&#34;https://www.youtube.com/embed/hjD9jTi_DQ4&#34; 

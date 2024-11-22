@@ -6,7 +6,161 @@
         <description>Recent content in Posts on Inicio</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Thu, 21 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 22 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Lo más básico de Java</title>
+        <link>http://localhost:1313/p/lo-m%C3%A1s-b%C3%A1sico-de-java/</link>
+        <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/lo-m%C3%A1s-b%C3%A1sico-de-java/</guid>
+        <description>&lt;img src="http://localhost:1313/p/lo-m%C3%A1s-b%C3%A1sico-de-java/orbtal-media-1td5Iq5IvNc-unsplash.jpg" alt="Featured image of post Lo más básico de Java" /&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Introducción a Java&lt;/p&gt;
+&lt;p&gt;¿Qué es Java? Un lenguaje de programación orientado a objetos, multiplataforma y ampliamente utilizado para desarrollar aplicaciones de escritorio, web y móviles.
+Por qué aprender Java? Es versátil, tiene una gran comunidad y es demandado en el mercado laboral.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hola Mundo: Tu Primer Programa en Java
+Java&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;public class HolaMundo {
+public static void main(String[] args) {
+System.out.println(&amp;quot;¡Hola, mundo!&amp;quot;);
+}
+}&lt;/p&gt;
+&lt;p&gt;Usa el código con precaución.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Explicación:
+    public class HolaMundo: Define una clase pública llamada &amp;quot;HolaMundo&amp;quot;.
+    public static void main(String[] args): Es el método principal donde comienza la ejecución.
+    System.out.println: Imprime el mensaje en la consola.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Variables y Tipos de Datos&lt;/p&gt;
+&lt;p&gt;Variables: Contenedores para almacenar datos.
+Tipos de datos:
+Primitivos: int, double, char, boolean.
+Referencia: String, objetos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Java&lt;/p&gt;
+&lt;p&gt;int edad = 30;
+double altura = 1.75;
+char inicial = &amp;lsquo;A&amp;rsquo;;
+boolean esEstudiante = true;
+String nombre = &amp;ldquo;Juan&amp;rdquo;;&lt;/p&gt;
+&lt;p&gt;Usa el código con precaución.
+4. Operadores&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Aritméticos: +, -, *, /, %.
+Relacionales: ==, !=, &amp;lt;, &amp;gt;, &amp;lt;=, &amp;gt;=.
+Lógicos: &amp;amp;&amp;amp;, ||, !.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Java&lt;/p&gt;
+&lt;p&gt;int x = 10;
+int y = 5;
+boolean resultado = x &amp;gt; y &amp;amp;&amp;amp; y &amp;lt; 10;&lt;/p&gt;
+&lt;p&gt;Usa el código con precaución.
+5. Estructuras de Control&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Condicionales: if, else if, else.
+Bucles: for, while, do-while.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Java&lt;/p&gt;
+&lt;p&gt;if (edad &amp;gt;= 18) {
+System.out.println(&amp;ldquo;Eres mayor de edad.&amp;rdquo;);
+} else {
+System.out.println(&amp;ldquo;Eres menor de edad.&amp;rdquo;);
+}&lt;/p&gt;
+&lt;p&gt;for (int i = 0; i &amp;lt; 5; i++) {
+System.out.println(&amp;ldquo;Iteración: &amp;quot; + i);
+}&lt;/p&gt;
+&lt;p&gt;Usa el código con precaución.
+6. Arrays&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Colecciones: Para almacenar múltiples valores del mismo tipo.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Java&lt;/p&gt;
+&lt;p&gt;int[] numeros = {1, 2, 3, 4, 5};&lt;/p&gt;
+&lt;p&gt;Usa el código con precaución.
+7. Clases y Objetos&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Clases: Plantillas para crear objetos.
+Objetos: Instancias de una clase.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Java&lt;/p&gt;
+&lt;p&gt;public class Perro {
+String nombre;
+int edad;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public void ladrar() {
+    System.out.println(&amp;quot;¡Guau!&amp;quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}&lt;/p&gt;
+&lt;p&gt;// Crear un objeto
+Perro miPerro = new Perro();
+miPerro.nombre = &amp;ldquo;Fido&amp;rdquo;;
+miPerro.ladrar();&lt;/p&gt;
+&lt;p&gt;Usa el código con precaución.
+8. Encapsulación&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Ocultar la implementación: Hacer los atributos privados y proporcionar métodos públicos (getters y setters) para acceder a ellos.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;9&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Herencia&lt;/p&gt;
+&lt;p&gt;Crear jerarquías de clases: Una clase puede heredar atributos y métodos de otra clase (clase padre).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Java&lt;/p&gt;
+&lt;p&gt;public class Animal {
+public void comer() {
+System.out.println(&amp;ldquo;Comiendo&amp;hellip;&amp;rdquo;);
+}
+}&lt;/p&gt;
+&lt;p&gt;public class Perro extends Animal {
+public void ladrar() {
+System.out.println(&amp;quot;¡Guau!&amp;rdquo;);
+}
+}&lt;/p&gt;
+&lt;p&gt;Usa el código con precaución.
+10. Polimorfismo&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Múltiples formas: Un mismo método puede tener diferentes implementaciones en clases hijas.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;11&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Abstracción&lt;/p&gt;
+&lt;p&gt;Clases abstractas e interfaces: Definen un contrato que las clases hijas deben cumplir.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Excepciones&lt;/p&gt;
+&lt;p&gt;Manejo de errores: try, catch, finally.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Entrada/Salida&lt;/p&gt;
+&lt;p&gt;Leer y escribir datos: Scanner, PrintWriter.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Colecciones&lt;/p&gt;
+&lt;p&gt;Listas, conjuntos, mapas: ArrayList, HashSet, HashMap.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ficheros&lt;/p&gt;
+&lt;p&gt;Leer y escribir en archivos: FileReader, FileWriter.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Programación Concurrente&lt;/p&gt;
+&lt;p&gt;Hilos: Threads.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Recursos Adicionales:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Tutoriales en línea: Oracle, Udemy, Coursera.
+Libros: &amp;quot;Thinking in Java&amp;quot; de Bruce Eckel.
+Comunidades: Stack Overflow, Foros de Java.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Próximos Pasos:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Practicar: Resuelve ejercicios y proyectos.
+Exploración: Aprende sobre frameworks como Spring, bibliotecas como Apache Commons y tecnologías como Servlets y JSP.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;¿En qué tema te gustaría profundizar más? Puedo explicarte cualquier concepto con más detalle o proporcionarte ejemplos más específicos.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Emojis en Hugo</title>
         <link>http://localhost:1313/p/emojis-en-hugo/</link>
         <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
@@ -235,7 +389,7 @@ será un elemento independiente o hijo del anterior.&lt;/p&gt;
 &lt;p&gt;Teclas (kbd): &lt;kbd&gt;CTRL&lt;/kbd&gt; + &lt;kbd&gt;F&lt;/kbd&gt; para buscar dentro de la página.&lt;/p&gt;
 &lt;p&gt;Remarcado (mark): Algunos dispositivos emplean la arquitectura &lt;mark&gt;ARM64&lt;/mark&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;videos-de-youtube&#34;&gt;Videos de YouTube
-&lt;/h2&gt;&lt;p&gt;Se pueden insertar videos de YouTube con el uso de shortcodes, para ello, basta con poner entre corchetes &amp;ldquo;youtube&amp;rdquo; y luego el id del video que queremos insertar.&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;Se pueden insertar videos de YouTube con el uso de shortcodes, para ello, basta con poner entre corchetes el nombre del shortcode previamente creado y luego el id del video que queremos insertar.&lt;/p&gt;
 &lt;div class=&#34;video-wrapper&#34;&gt;
     &lt;iframe loading=&#34;lazy&#34; 
             src=&#34;https://www.youtube.com/embed/hjD9jTi_DQ4&#34; 
@@ -351,37 +505,6 @@ será un elemento independiente o hijo del anterior.&lt;/p&gt;
     &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;cite&gt;Some book&lt;/cite&gt;&lt;/span&gt;&lt;/blockquote&gt;
 &lt;blockquote&gt;
     &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;Somebody&lt;/span&gt;&lt;cite&gt;&lt;/cite&gt;&lt;/span&gt;&lt;/blockquote&gt;</description>
-        </item>
-        <item>
-        <title>Placeholder Text</title>
-        <link>http://localhost:1313/p/placeholder-text/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/placeholder-text/</guid>
-        <description>&lt;img src="http://localhost:1313/p/placeholder-text/matt-le-SJSpo9hQf7s-unsplash.jpg" alt="Featured image of post Placeholder Text" /&gt;&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;
-&lt;p&gt;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Exierant elisi ambit vivere dedere&lt;/li&gt;
-&lt;li&gt;Duce pollice&lt;/li&gt;
-&lt;li&gt;Eris modo&lt;/li&gt;
-&lt;li&gt;Spargitque ferrea quos palude&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Comas hunc haec pietate fetum procerum dixit&lt;/li&gt;
-&lt;li&gt;Post torum vates letum Tiresia&lt;/li&gt;
-&lt;li&gt;Flumen querellas&lt;/li&gt;
-&lt;li&gt;Arcanaque montibus omnes&lt;/li&gt;
-&lt;li&gt;Quidem et&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&#34;vagus-elidunt&#34;&gt;Vagus elidunt
-&lt;/h1&gt;&lt;p&gt;&lt;svg class=&#34;canon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; overflow=&#34;visible&#34; viewBox=&#34;0 0 496 373&#34; height=&#34;373&#34; width=&#34;496&#34;&gt;&lt;g fill=&#34;none&#34;&gt;&lt;path stroke=&#34;#000&#34; stroke-width=&#34;.75&#34; d=&#34;M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515&#34;&gt;&lt;/path&gt;&lt;path stroke=&#34;#ED1C24&#34; stroke-width=&#34;.75&#34; d=&#34;M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z&#34;&gt;&lt;/path&gt;&lt;path stroke=&#34;#000&#34; stroke-width=&#34;.75&#34; d=&#34;M.479.375h495v372h-495zM247.979.875v372&#34;&gt;&lt;/path&gt;&lt;ellipse cx=&#34;498.729&#34; cy=&#34;177.625&#34; rx=&#34;.75&#34; ry=&#34;1.25&#34;&gt;&lt;/ellipse&gt;&lt;ellipse cx=&#34;247.229&#34; cy=&#34;377.375&#34; rx=&#34;.75&#34; ry=&#34;1.25&#34;&gt;&lt;/ellipse&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;The Van de Graaf Canon&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;mane-refeci-capiebant-unda-mulcebat&#34;&gt;Mane refeci capiebant unda mulcebat
-&lt;/h2&gt;&lt;p&gt;Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. &lt;strong&gt;Faces illo pepulere&lt;/strong&gt; tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.&lt;/p&gt;
-&lt;p&gt;Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.&lt;/p&gt;
-&lt;p&gt;Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel &lt;strong&gt;mitis temploque&lt;/strong&gt; vocatus, inque alis, &lt;em&gt;oculos nomen&lt;/em&gt; non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides &lt;strong&gt;parte&lt;/strong&gt;.&lt;/p&gt;</description>
         </item>
         <item>
         <title>Math Typesetting</title>
