@@ -1,0 +1,46 @@
+<div class="channels-grid">
+    <style>
+      .channels-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .channel-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 20px;
+      }
+      .channel-item {
+        text-align: center;
+      }
+      .channel-item a {
+        text-decoration: none;
+        color: inherit;
+      }
+      .channel-logo {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      .channel-name {
+        margin-top: 8px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+    </style>
+    {{ range .Site.Data.channels }}
+      <h2>{{ .name }}</h2>
+      <div class="channel-list">
+        {{ range .channels }}
+          <div class="channel-item">
+            <a href="{{ .web }}" target="_blank" rel="noopener">
+              <img src="{{ .logo }}" alt="{{ .name }}" class="channel-logo" />
+              <div class="channel-name">{{ .name }}</div>
+            </a>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+  
